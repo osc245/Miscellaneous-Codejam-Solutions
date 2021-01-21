@@ -8,7 +8,7 @@ for case in range(1, int(input()) + 1):
                 y += 1
             elif moves[i] == "S":
                 y -= 1
-            if moves[i] == "E":
+            elif moves[i] == "E":
                 x += 1
             elif moves[i] == "W":
                 x -= 1
