@@ -1,7 +1,7 @@
 for case in range(1, int(input()) + 1):
     line = input().split()
-    pancakes, size = [s == "+" for s in line[0]], int(line[1])
-    flips = 0
+    pancakes = [s == "+" for s in line[0]]
+    size, flips = int(line[1]), 0
     for i in range(len(pancakes) - size + 1):
         if not pancakes[i]:
             flips += 1
