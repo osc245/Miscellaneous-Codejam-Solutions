@@ -1,1 +1,1 @@
-# Miscellaneous solutions to google codejam problems written in python
+Miscellaneous solutions to Google Code Jam problems written in Python.
