@@ -1,3 +1,5 @@
+# only pasts first two test sets
+
 for case in range(1, int(input()) + 1):
     line = input().split()
     cjPrice, jcPrice = int(line[0]), int(line[1])
