@@ -5,4 +5,4 @@ for case in range(1, int(input()) + 1):
     for i in range(0, int(maxLevel) + 1):
         extra += max(0, i - count)
         count += max(0, i - count) + crowd[i]
-    print("Case #{}: {}".format(case, extra))
+    print('Case #{}: {}'.format(case, extra))

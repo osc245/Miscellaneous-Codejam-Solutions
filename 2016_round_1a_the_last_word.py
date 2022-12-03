@@ -6,4 +6,4 @@ for case in range(1, int(input()) + 1):
             ans = c + ans
         else:
             ans += c
-    print("Case #{}: {}".format(case, ans))
+    print('Case #{}: {}'.format(case, ans))

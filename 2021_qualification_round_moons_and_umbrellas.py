@@ -6,14 +6,14 @@ for case in range(1, int(input()) + 1):
     started = prevC = False
     ans = 0
     for elem in list(line[2]):
-        if started and elem == "C":
+        if started and elem == 'C':
             ans += (not prevC) * jcPrice
             prevC = True
-        elif started and elem == "J":
+        elif started and elem == 'J':
             ans += prevC * cjPrice
             prevC = False
-        elif not started and elem != "?":
+        elif not started and elem != '?':
             started = True
-            if elem == "C":
+            if elem == 'C':
                 prevC = True
-    print("Case #{}: {}".format(case, ans))
+    print('Case #{}: {}'.format(case, ans))
